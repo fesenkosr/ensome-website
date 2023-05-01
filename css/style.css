@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@400;600;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@400;600;700;800&display=swap');
 *{
 box-sizing: border-box;
 padding: 0;
@@ -9,10 +9,15 @@ margin: 0;
 body{
 font-family: 'Open Sans';
 background-color: #FFFFFF;
+
 }
 h1 {
     
     font-size: 45px;
+}
+h3{
+    font-size: 22px;
+    margin-bottom: 1em;
 }
 img{
     max-width: 100%;
@@ -20,6 +25,12 @@ img{
 a{
     text-decoration: none;
 }
+section{
+    overflow: hidden;
+    padding: 2em 2em;
+}
+
+
 .link:hover {
     color: rgb(3, 3, 3);
 
@@ -43,8 +54,11 @@ align-items: center;
 display: inline-block;
 margin-right: 1.8rem;
 font-size: 14px;
-
 }
+.bgc-g{
+    background-color:#F1F6FA ;
+}
+
 /* кнопки первого  блока */
 
 
@@ -96,33 +110,34 @@ color: #9497A1;
 .bgc{
 background-color: #185CFF;
 }
-.header-top{
-padding-top: 40px;
-padding-bottom: 40px;
-}
+
 .container-inner{
     display: flex;
-    
+    justify-content:left;
     gap: 10px;
+    padding: 4em 0 ;
 }
 .title-container-inner{
     max-width: 550px;
-    
-    margin-top: 4em;
+    flex: 1;
+    padding-top: 4em;
 }
-.image-container-inner{
-   position: relative; 
-   
+
+.image-container{
+ position: relative;
+ flex: 1;
 }
+
 .image-inner{
  position: absolute;    
   left: 0;
-  top: 2.2em;
+  top: 0;
   max-width: 850px;
 }
 
 .line{
-margin-top: 122px;
+padding-top: 2em;
+padding-bottom: 2em;
 width: 100%;
 border-bottom: 1px solid #F1F6FA;
 order: 2;
@@ -135,4 +150,46 @@ order: 2;
 .clients-logos{
     max-width: 1110px;
     margin: 0 auto;
+}
+/* стили второго блока */
+.advantages-section{
+display: flex;
+flex-direction: column  ;
+align-items: center;
+}
+.title-advantages{
+margin-top: 4rem;
+max-width: 540px;
+text-align: center;
+}
+
+.card{
+display: grid;
+grid-auto-flow: column;
+gap: 2em;
+margin-bottom: 3em;
+}
+
+.advantages-card{
+padding:3em 2em ;
+background-color: #FFFFFF;
+border-radius: 10px;
+max-width: 350px;
+}
+.advantages-icons{
+    margin-bottom: 1.5em;
+}
+.tlh{
+line-height: 1.5em;
+}
+.image-inner__mod {
+ padding-left: 4em;
+
+}
+.image-inn{
+ position: absolute;
+ top: 0;
+ right: 0;
+max-width: 700px;
+margin-right: 4em;
 }
