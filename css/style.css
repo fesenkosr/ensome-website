@@ -163,9 +163,19 @@ max-width: 540px;
 text-align: center;
 }
 
+@media only screen and (max-width: 1000px){
 .card{
 display: grid;
-grid-auto-flow: column;
+grid-template-rows:repeat(3,1fr);
+
+}
+
+}
+
+.card{
+display: grid;
+grid-auto-flow:column;
+justify-content: center;
 gap: 2em;
 margin-bottom: 3em;
 }
@@ -190,6 +200,17 @@ line-height: 1.5em;
  position: absolute;
  top: 0;
  right: 0;
-max-width: 700px;
+max-width: 670px;
 margin-right: 4em;
 }
+
+.blog-section{
+display: flex;
+justify-content: center;
+
+margin: 3em 0;
+}   
+.pbt{
+    padding-bottom: 6em;
+}
+
