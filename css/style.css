@@ -86,7 +86,7 @@ font-size: 14px;
 .secondary-button{
 border: none;
 border-radius: 4px;
- padding: 1em 2em;
+ padding: 1em 4em;
  color: white;
  font-size: 14px;
 cursor: pointer;
@@ -169,7 +169,6 @@ display: grid;
 grid-template-rows:repeat(3,1fr);
 
 }
-
 }
 
 .card{
@@ -213,4 +212,86 @@ margin: 3em 0;
 .pbt{
     padding-bottom: 6em;
 }
+.btn-link{
+    margin-top: 1em;
+    padding: 0.3em 1em;
+    background: none;
+    border-radius: 5px ;
+    border: solid 1px #F1F6FA;
+    color: #185CFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+.blog-section-button{
+    display: flex;
+    justify-content: center ;
+    margin-bottom: 2em;
+}
+/*                     block 5              */
 
+.reviews-section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 5em;
+}
+.title-reviews-section{
+    max-width: 445px;
+}
+
+.reviews-cards{
+ display: flex;
+ gap: 30px;
+}
+.reviews-cards__item{
+position: relative;
+ padding: 1.5em;
+ max-width: 540px;
+ border-radius: 2px;
+box-shadow: 0px 1px 10px rgb(237, 237, 242);
+}
+.reviews-cards__image{
+   position: absolute; 
+   top: -2.2em;
+}
+.reviews-cards__description{
+ padding-top: 3em;
+ padding-bottom: 2em;
+}
+.reviews-cards__name{
+    margin-bottom: 20px;
+font-weight: 700;
+font-size: 16px;
+}
+.controls-direction{
+    display: flex;
+    gap:15px;
+}
+.controls-direction__button-arrow{
+ border: none;
+ border-radius: 20px;
+ background-color: #F0F9FF;
+ padding: 0.5em 2em;
+ cursor: pointer;
+}
+
+/*   block   6           */
+
+.project-executed{
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 20px;
+}
+.company-overview__nubmber{
+margin-bottom: 0.2em;
+font-size: 3.5em ;
+font-weight: 800;
+color:white;
+text-align: center;
+}
+.tcw{
+text-align: center;
+ color: white;
+ font-size: 16px; 
+}
