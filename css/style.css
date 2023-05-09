@@ -282,6 +282,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 gap: 20px;
+padding-bottom: 1em;
 }
 .company-overview__nubmber{
 margin-bottom: 0.2em;
@@ -294,4 +295,70 @@ text-align: center;
 text-align: center;
  color: white;
  font-size: 16px; 
+}
+
+/*    block 7                   */
+
+.contact-section{
+margin-top: 2.5em;
+display: flex;
+gap: 120px;
+justify-content: center;
+}
+.contact-section__title{
+max-width: 540px;
+flex: 1;
+}
+.contact-section__email {
+    margin-top: 4em;
+    margin-bottom: 1.8em;
+
+}
+
+.contact-section__phone {
+    margin-bottom: 1.8em;
+}
+.contact-section__form {
+flex: 1;
+
+}
+
+.txz-h2{
+  font-size: 38px;  
+  padding-bottom: 0.5em;
+}
+.text-contact{
+    font-weight: 700;   
+    font-size: 16px;
+}
+
+.form{
+ display: flex;
+ flex-direction: column;
+ max-width: 445px;
+ gap: 25px;
+box-shadow: 0px 12px 30px 17px rgba(24, 92, 255, 0.04);
+border-radius: 6px;
+background: #FFFFFF;
+padding: 2.5em;
+}
+.form-contact__input{
+ max-width: 345px;
+ padding-bottom: 2em;
+border: none;
+border-bottom: 1px solid #515151;
+}
+.form-contact__input:focus {
+    outline: none;
+}
+.form-button{
+ margin-top: 5em;   
+display: flex;
+justify-content: end;
+}
+.form-button__submit{
+    padding: 1em 3em ;
+    border: none;
+    border-radius: 5px;
+    color: white;
 }
