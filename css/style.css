@@ -369,7 +369,7 @@ background: #FFFFFF;
 padding: 2.5em;
 }
 .form-contact__input{
- padding-bottom: 2em;
+ padding-bottom: 1em;
 border: none;
 border-bottom: 1px solid #515151;
 }
@@ -386,6 +386,55 @@ justify-content: end;
     border: none;
     border-radius: 5px;
     color: white;
+}
+
+/*  block 8      */
+.txz-h2__mod{
+    color:white;
+    font-size: 38px;
+}
+.subscribe-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10em;
+}
+
+
+
+.tex-color{
+font-weight: 400;
+color: white;
+font-size: 20px;
+}
+.subscribe-block__title{
+max-width: 540px;
+flex: 1;
+
+}
+
+.form-subscribe{
+    max-width: 445px;
+    flex: 1;
+}
+.subscribe-input{
+    max-width:450px;
+    background: #C9DCEC;
+    border-radius: 6px;
+    padding: 1em 1em 1em;
+    border: none;
+    margin-right: -20px;
+}
+.subscribe-input:focus {
+    outline: none;
+}
+
+.subscribe-button{
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 1em 2em 1em;
+    border: none;
+    margin-left: 0;
 }
 
 
