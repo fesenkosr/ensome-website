@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="img/icons8.png" rel="shortcut icon" type="image/x-icon">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="dist/output.css" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <section>
@@ -40,10 +40,13 @@
                                     <div class="mobaile-menu__link-tab">
                                         <ul class="mobaile-list">
                                             <li class="mobaile-list__item">
-                                                <label class="tab-label">Home</label>
-                                                <input type="checkbox">
+                                                <label class="tab-label" for="menu-item-box">Home</label>
+                                                <input type="checkbox" id="menu-item-box">
                                                 <div class="link-tab__content">
-                                                    <a href="#"></a>
+                                                    <div href="#">one</div>
+                                                    <div href="#">one</div>
+                                                    <div href="#">one</div>
+                                                    <div href="#">one</div>
                                                 </div>
                                             </li>
                                 
@@ -132,7 +135,7 @@
                         </ul>
                 
                 <div class="header-top-actions">
-                    <button type="button" class="primary-button bgc btn">
+                    <button id="watchDemoBtn" type="button" class="primary-button bgc btn">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_922_3678)">
                             <path
@@ -151,13 +154,13 @@
             </div>
 
             <!--первый блок -->
-                <div class="container-inner">
+                <div class="container-inner first-block">
                     <div class="title-container-inner">
                         <h1>Find true power in your data with Ensome</h1>
                         <p class="tcg  tcg-size">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
                         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                         <div class="buttons">
-                        <button type="button" class="secondary-button bgc">Learn more</button>
+                        <button type="button" class="learn-more-btn secondary-button bgc">Learn more</button>
                         <button type="button" class="third-button btn ">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_924_721)">
@@ -536,4 +539,5 @@
     </section>
 
 </body>
+<script src="script.js"></script>
 </html>
